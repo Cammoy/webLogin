@@ -88,9 +88,9 @@ def choice3():
     browser = webdriver.Firefox()
     browser.get( login_page )
 
-    username = browser.find_element_by_name( "username" )
-    password = browser.find_element_by_name( "password" )
-    submit = browser.find_element_by_css_selector( "form button" )
+    username = browser.find_element_by_id( "f14e9e191af58" )
+    password = browser.find_element_by_id( "f30c4377c58658" )
+    submit = browser.find_element_by_id( "_5f5mN jIbKX KUBKM pm766" )
     
     username.send_keys(givenUsername)
     password.send_keys(givenPassword)
